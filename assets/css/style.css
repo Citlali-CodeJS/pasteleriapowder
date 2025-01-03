@@ -79,9 +79,9 @@ body{
 }
 
 img{
-    width: 100px;
-    height: 100px;
-   text-align: center;
+    width: 100%;
+    height: 100%;
+   
 }
 .color-fondo{
     background-color:var(--white);
@@ -101,10 +101,10 @@ grid-area: search;
    padding-top: 2.5rem;
     }
 
-    h2, h4, h5{
+    h2, h3, h5{
    text-align: center;
     }
-      
+    
      .field{
         display: flex;
        flex-direction: column;
@@ -125,21 +125,33 @@ grid-area: search;
     
    }
    
-   .btn{
-    display: grid; 
-    place-items: center;
-   
-   }
-   .col {
-    width: 30%;
-    height: 50%;
-   
-   }
-   #card-img{
+   .product-grid-container {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     grid-template-rows: repeat(2, auto);
+     gap: 20px; 
+     padding: 20px; 
+     } 
+     .card { 
+       background-color: #f9f9f9; 
+       border: 2px solid   rgb(150, 179, 199); 
+       border-radius: 10px; 
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px; 
+        text-align: center; 
+        } 
+        .card h3 {
+            margin: 0 0 10px;
+             } 
+             .card p {
+                margin: 0;
+                 } 
+                 .card img{
+                    width: 100%;
+                    height: 100%;
+                 }
+ #mousse-img{
     width: 100%;
-    height: 100%;
-   }
-   
-
-
-  
+    height: 60%;
+ }
+ 
