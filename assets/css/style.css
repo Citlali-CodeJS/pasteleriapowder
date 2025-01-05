@@ -45,7 +45,7 @@ body{
     grid-area: sidebar;
     display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
+   justify-content: space-between;
    background-color: rgb(206, 243, 255);
    width: 100%;
    height: 100%;
@@ -154,4 +154,7 @@ grid-area: search;
     width: 100%;
     height: 60%;
  }
- 
+ .catalogo{
+    padding-top: 30px;
+    padding-bottom: 50%;
+ }
