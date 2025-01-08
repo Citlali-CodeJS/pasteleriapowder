@@ -101,11 +101,7 @@ img{
    text-align: center;
     }
     
-     .field{
-        display: flex;
-       flex-direction: column;
-        width: 100%;
-     }
+     
      
      p{
        display: flex;
